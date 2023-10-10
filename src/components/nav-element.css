@@ -1,0 +1,44 @@
+.nav-element-container {
+  flex: 0 0 auto;
+  width: auto;
+  height: 100%;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  padding-top: 9px;
+  padding-left: 20px;
+  padding-right: 20px;
+  flex-direction: row;
+  padding-bottom: 9px;
+  justify-content: center;
+}
+.nav-element-link {
+  display: contents;
+}
+.nav-element-nav-element-text {
+  width: auto;
+  height: 19px;
+  font-size: 18px;
+  align-self: center;
+  font-family: "DM Sans";
+}
+.nav-element-root-class-name {
+  height: auto;
+  align-self: center;
+}
+.nav-element-root-class-name1 {
+  height: auto;
+  align-self: center;
+}
+.nav-element-root-class-name2 {
+  height: auto;
+  align-self: center;
+}
+.nav-element-root-class-name3 {
+  height: auto;
+  align-self: center;
+}
+.nav-element-root-class-name4 {
+  height: auto;
+  align-self: center;
+}

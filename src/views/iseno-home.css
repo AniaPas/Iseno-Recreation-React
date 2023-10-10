@@ -1,0 +1,130 @@
+.iseno-home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.iseno-home-header {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-self: stretch;
+  align-items: center;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  flex-direction: column;
+  padding-bottom: 30px;
+  justify-content: flex-start;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.iseno-home-menu-wrapper {
+  flex: 0 0 auto;
+  height: 56px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.iseno-home-iseno-logo {
+  top: 0px;
+  left: 0px;
+  width: 56px;
+  position: absolute;
+  align-self: stretch;
+  object-fit: cover;
+  padding-bottom: 1px;
+}
+.iseno-home-link {
+  display: contents;
+}
+.iseno-home-navbar {
+  top: 0px;
+  left: 0px;
+  width: auto;
+  height: 56px;
+  margin: 0px;
+  display: flex;
+  position: absolute;
+  align-self: center;
+  margin-top: auto;
+  margin-left: 120px;
+  margin-right: auto;
+  margin-bottom: auto;
+  justify-content: center;
+  text-decoration: none;
+}
+.iseno-home-menu-wrapper-contactbox {
+  top: 0px;
+  flex: 0 0 auto;
+  right: 0px;
+  width: auto;
+  bottom: 0px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.iseno-home-menu-wrapper-contactbox-link {
+  font-size: 20px;
+  align-self: center;
+  margin-right: var(--dl-space-space-unit);
+}
+.iseno-home-menu-wrapper-contactbox-img-wrapper-arrow-img {
+  width: 100%;
+  height: 100%;
+  align-self: center;
+  object-fit: cover;
+  transition: padding-left 0.4s ease;
+}
+.iseno-home-menu-wrapper-contactbox-img-wrapper-arrow-img:hover {
+  padding-left: var(--dl-space-space-halfunit);
+}
+.iseno-home-mission-section {
+  top: 116px;
+  flex: 0 0 auto;
+  right: 0px;
+  width: 1199px;
+  height: 864px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  background-size: revert;
+  justify-content: center;
+  background-image: url('https://iseno.net/images/t%C5%82o-1-iseno-.svg');
+}
+.iseno-home-container1 {
+  top: 116px;
+  left: 0px;
+  width: 100%;
+  height: 744px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  padding-top: 152px;
+  padding-left: 95.325px;
+  padding-right: 95.325px;
+  background-size: revert;
+  justify-content: flex-start;
+  background-image: url('https://iseno.net/images/t%C5%82o-1-iseno-.svg');
+}
+@media(max-width: 991px) {
+  .iseno-home-menu-wrapper {
+    flex-direction: row;
+  }
+  .iseno-home-menu-wrapper-contactbox {
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
