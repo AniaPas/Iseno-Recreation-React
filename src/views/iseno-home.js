@@ -60,9 +60,33 @@ const IsenoHome = (props) => {
           </div>
         </div>
       </div>
-      <div className="iseno-home-mission-section"></div>
-      <div className="iseno-home-container1">
-        <span>Text</span>
+      <div className="iseno-home-mission-section">
+        <h1 className="iseno-home-mission-sectionheading Heading1">
+          <span>
+            We provide integrated
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <br></br>
+          <span>IT and marketing services</span>
+        </h1>
+        <p className="iseno-home-mission-sectionpara-main Content">
+          Iseno is an international group of companies that can build your
+          digital product from scratch to a ready-to-launch solution, execute
+          UX/UI design or audit, and market your new or improved product to the
+          right audience. We operate in fintech, e-commerce, medical and
+          automotive industries. Apart from working hard on projects for our
+          clients, we are engaged in creating a UX/UI community.
+        </p>
+        <p className="iseno-home-mission-sectionpara-secondary">
+          <span>8 years of experience, 250+ projects completed,</span>
+          <br></br>
+          <span>100+ happy customers around the world</span>
+        </p>
+        <div className="iseno-home-container1"></div>
       </div>
     </div>
   )

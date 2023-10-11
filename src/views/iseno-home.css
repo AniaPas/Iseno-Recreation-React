@@ -91,34 +91,58 @@
   padding-left: var(--dl-space-space-halfunit);
 }
 .iseno-home-mission-section {
-  top: 116px;
-  flex: 0 0 auto;
-  right: 0px;
-  width: 1199px;
-  height: 864px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  background-size: revert;
-  justify-content: center;
-  background-image: url('https://iseno.net/images/t%C5%82o-1-iseno-.svg');
-}
-.iseno-home-container1 {
-  top: 116px;
   left: 0px;
-  width: 100%;
-  height: 744px;
+  width: 1199px;
+  bottom: -86px;
+  height: 973px;
   display: flex;
   position: absolute;
-  align-items: center;
+  max-width: 700px;
+  align-self: center;
+  align-items: flex-start;
   padding-top: 152px;
-  padding-left: 95.325px;
-  padding-right: 95.325px;
-  background-size: revert;
+  padding-left: 92.013px;
+  padding-right: 92.013px;
+  flex-direction: column;
+  background-size: cover;
   justify-content: flex-start;
   background-image: url('https://iseno.net/images/t%C5%82o-1-iseno-.svg');
 }
+.iseno-home-mission-sectionheading {
+  width: 896px;
+  margin-top: 0px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+.iseno-home-mission-sectionpara-main {
+  max-width: 700px;
+  margin-bottom: 10px;
+}
+.iseno-home-mission-sectionpara-secondary {
+  height: auto;
+  font-size: 22px;
+  max-width: 700px;
+  margin-top: 16px;
+  font-family: "DM Sans";
+  font-weight: 500;
+  line-height: 150%;
+  margin-bottom: 10px;
+  text-transform: none;
+  text-decoration: none;
+}
+.iseno-home-container1 {
+  flex: 0 0 auto;
+  width: 172px;
+  height: 16px;
+  display: flex;
+  margin-top: 24px;
+  align-items: flex-start;
+  background-color: var(--dl-color-primary-background2);
+}
 @media(max-width: 991px) {
+  .iseno-home-header {
+    width: 100%;
+  }
   .iseno-home-menu-wrapper {
     flex-direction: row;
   }
@@ -126,5 +150,14 @@
     align-self: center;
     flex-direction: column;
     justify-content: center;
+  }
+  .iseno-home-mission-section {
+    top: 0px;
+    right: -315px;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 116px;
+    margin-left: 0px;
+    margin-right: 340px;
   }
 }

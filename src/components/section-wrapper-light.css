@@ -9,16 +9,17 @@
   padding-top: 152px;
   padding-left: 92.013px;
   padding-right: 92.013px;
+  flex-direction: column;
   background-size: cover;
   justify-content: flex-start;
   background-image: url('https://iseno.net/images/t%C5%82o-1-iseno-.svg');
 }
 .section-wrapper-light-text {
-  font-size: 64px;
-  font-family: DM Sans;
-  font-weight: 700;
-  line-height: 130%;
+  width: 896px;
+  margin-top: 0px;
+  text-align: left;
   margin-bottom: 32px;
-  text-transform: none;
-  text-decoration: none;
+}
+.section-wrapper-light-text1 {
+  max-width: 700px;
 }
