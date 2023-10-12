@@ -3,6 +3,8 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import NavElement from '../components/nav-element'
+import AnimatedBlockBlack from '../components/animated-block-black'
+import SectionSubheading from '../components/section-subheading'
 import './iseno-home.css'
 
 const IsenoHome = (props) => {
@@ -60,8 +62,8 @@ const IsenoHome = (props) => {
           </div>
         </div>
       </div>
-      <div className="iseno-home-mission-section">
-        <h1 className="iseno-home-mission-sectionheading Heading1">
+      <section className="iseno-home-hero-section">
+        <h1 className="iseno-home-hero-sectionheading Heading1">
           <span>
             We provide integrated
             <span
@@ -73,7 +75,7 @@ const IsenoHome = (props) => {
           <br></br>
           <span>IT and marketing services</span>
         </h1>
-        <p className="iseno-home-mission-sectionpara-main Content">
+        <p className="iseno-home-hero-sectionpara-main Content">
           Iseno is an international group of companies that can build your
           digital product from scratch to a ready-to-launch solution, execute
           UX/UI design or audit, and market your new or improved product to the
@@ -81,13 +83,31 @@ const IsenoHome = (props) => {
           automotive industries. Apart from working hard on projects for our
           clients, we are engaged in creating a UX/UI community.
         </p>
-        <p className="iseno-home-mission-sectionpara-secondary">
+        <p className="iseno-home-hero-sectionpara-secondary">
           <span>8 years of experience, 250+ projects completed,</span>
           <br></br>
           <span>100+ happy customers around the world</span>
         </p>
+        <AnimatedBlockBlack></AnimatedBlockBlack>
+        <div className="iseno-home-read-more-button-wrapper">
+          <div className="iseno-home-read-more-button-wrapperbox">
+            <img
+              alt="arrow-down"
+              src="https://iseno.net/images/button-show-more-arrow.svg"
+              loading="lazy"
+              className="iseno-home-read-more-button-wrappericon"
+            />
+          </div>
+        </div>
+      </section>
+      <section className="iseno-home-mission-section">
+        <h2 className="iseno-home-mission-section-heading">
+          <span className="Heading2">Mission</span>
+          <br></br>
+        </h2>
+        <SectionSubheading></SectionSubheading>
         <div className="iseno-home-container1"></div>
-      </div>
+      </section>
     </div>
   )
 }

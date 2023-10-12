@@ -1,0 +1,10 @@
+.animated-block-black-animated-block-black {
+  flex: 0 0 auto;
+  width: 172px;
+  height: 16px;
+  display: flex;
+  position: relative;
+  margin-top: 24px;
+  align-items: flex-start;
+  background-color: var(--dl-color-primary-background2);
+}
