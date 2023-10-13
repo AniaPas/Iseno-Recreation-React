@@ -61,6 +61,7 @@
   margin-left: 120px;
   margin-right: auto;
   margin-bottom: auto;
+  flex-direction: row;
   justify-content: center;
   text-decoration: none;
 }
@@ -105,11 +106,7 @@
   padding-left: 9%;
   padding-right: 9%;
   flex-direction: column;
-  background-size: cover;
   justify-content: space-around;
-  background-image: url('https://iseno.net/images/t%C5%82o-1-iseno-.svg');
-  background-repeat: repeat;
-  background-position: 0px 0px;
 }
 .iseno-home-hero-sectionheading {
   width: 896px;
@@ -190,6 +187,44 @@
   margin-bottom: 10px;
 }
 .iseno-home-container1 {
+  flex: 0 0 auto;
+  width: 232px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 16px;
+  display: flex;
+  margin-top: 12px;
+  align-items: flex-start;
+  background-color: #e5e5e5;
+}
+.iseno-home-mission-section1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 724px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  font-weight: 700;
+  padding-top: 120px;
+  flex-direction: column;
+  padding-bottom: 120px;
+  justify-content: center;
+  background-color: #ff0000;
+}
+.iseno-home-container2 {
+  flex: 0 0 auto;
+  width: 80%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.iseno-home-mission-section-heading1 {
+  color: var(--dl-color-gray-text-secondary);
+  height: fit-content;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.iseno-home-container3 {
   flex: 0 0 auto;
   width: 232px;
   border: 2px dashed rgba(120, 120, 120, 0.4);

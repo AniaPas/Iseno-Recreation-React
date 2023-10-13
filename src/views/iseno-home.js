@@ -108,6 +108,16 @@ const IsenoHome = (props) => {
         <SectionSubheading></SectionSubheading>
         <div className="iseno-home-container1"></div>
       </section>
+      <section className="iseno-home-mission-section1">
+        <div className="iseno-home-container2">
+          <h2 className="iseno-home-mission-section-heading1">
+            <span className="Heading2">Mission</span>
+            <br></br>
+          </h2>
+          <SectionSubheading></SectionSubheading>
+          <div className="iseno-home-container3"></div>
+        </div>
+      </section>
     </div>
   )
 }

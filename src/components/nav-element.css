@@ -5,6 +5,7 @@
   display: flex;
   position: relative;
   flex-wrap: wrap;
+  align-items: center;
   padding-top: 9px;
   padding-left: 20px;
   padding-right: 20px;
@@ -17,9 +18,8 @@
 }
 .nav-element-nav-element-text {
   width: auto;
-  height: 19px;
+  height: auto;
   font-size: 18px;
-  align-self: center;
   font-family: "DM Sans";
 }
 .nav-element-root-class-name {
