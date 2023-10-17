@@ -2,8 +2,9 @@ import React from 'react'
 
 import { Helmet } from 'react-helmet'
 
+import BackgroundPattern from '../components/background-pattern'
 import NavElement from '../components/nav-element'
-import AnimatedBlockBlack from '../components/animated-block-black'
+import AnimatedBlockDark from '../components/animated-block-dark'
 import SectionSubheading from '../components/section-subheading'
 import './iseno-home.css'
 
@@ -14,6 +15,14 @@ const IsenoHome = (props) => {
         <title>Iseno Recreation</title>
         <meta property="og:title" content="Iseno Recreation" />
       </Helmet>
+      <div className="iseno-home-background-grid-wrapper">
+        <BackgroundPattern rootClassName="background-pattern-root-class-name"></BackgroundPattern>
+        <BackgroundPattern rootClassName="background-pattern-root-class-name1"></BackgroundPattern>
+        <BackgroundPattern rootClassName="background-pattern-root-class-name5"></BackgroundPattern>
+        <BackgroundPattern rootClassName="background-pattern-root-class-name3"></BackgroundPattern>
+        <BackgroundPattern rootClassName="background-pattern-root-class-name2"></BackgroundPattern>
+        <BackgroundPattern rootClassName="background-pattern-root-class-name4"></BackgroundPattern>
+      </div>
       <div className="iseno-home-header">
         <div className="iseno-home-menu-wrapper">
           <img
@@ -88,8 +97,8 @@ const IsenoHome = (props) => {
           <br></br>
           <span>100+ happy customers around the world</span>
         </p>
-        <AnimatedBlockBlack></AnimatedBlockBlack>
         <div className="iseno-home-read-more-button-wrapper">
+          <AnimatedBlockDark rootClassName="animated-block-dark-root-class-name"></AnimatedBlockDark>
           <div className="iseno-home-read-more-button-wrapperbox">
             <img
               alt="arrow-down"
@@ -106,18 +115,33 @@ const IsenoHome = (props) => {
           <br></br>
         </h2>
         <SectionSubheading></SectionSubheading>
-        <div className="iseno-home-container1"></div>
+        <div className="iseno-home-animated-block-light"></div>
+        <p className="iseno-home-text08 Content">
+          <span className="iseno-home-text09">
+            Our mission is to deliver the best quality technologically and
+            visually advanced products from start to finish. For this reason, we
+            combined all of our brands into one group so we can work on complex
+            and integrated projects and exceed our client’s expectations.
+          </span>
+          <br className="iseno-home-text10"></br>
+          <br className="iseno-home-text11"></br>
+          <br className="iseno-home-text12"></br>
+          <span className="iseno-home-text13">
+            Our values are based on in-depth research, user-centricity, and
+            clear communication. We believe in inclusivity, accessibility, and
+            diversity when building our products and teams.
+          </span>
+          <br className="iseno-home-text14"></br>
+          <br className="iseno-home-text15"></br>
+          <span className="iseno-home-text16">
+            In addition to working hard for our clients, we are building a UX
+            community where anyone can participate in an open discussion about
+            UX and we are developing a UX jo
+          </span>
+          <span className="iseno-home-text17">b search website.</span>
+        </p>
       </section>
-      <section className="iseno-home-mission-section1">
-        <div className="iseno-home-container2">
-          <h2 className="iseno-home-mission-section-heading1">
-            <span className="Heading2">Mission</span>
-            <br></br>
-          </h2>
-          <SectionSubheading></SectionSubheading>
-          <div className="iseno-home-container3"></div>
-        </div>
-      </section>
+      <section className="iseno-home-mission-section1"></section>
     </div>
   )
 }
