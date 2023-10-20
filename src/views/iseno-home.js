@@ -6,6 +6,7 @@ import BackgroundPattern from '../components/background-pattern'
 import NavElement from '../components/nav-element'
 import AnimatedBlockDark from '../components/animated-block-dark'
 import SectionSubheading from '../components/section-subheading'
+import BrandsTile from '../components/brands-tile'
 import './iseno-home.css'
 
 const IsenoHome = (props) => {
@@ -17,8 +18,8 @@ const IsenoHome = (props) => {
       </Helmet>
       <div className="iseno-home-background-grid-wrapper">
         <BackgroundPattern rootClassName="background-pattern-root-class-name"></BackgroundPattern>
-        <BackgroundPattern rootClassName="background-pattern-root-class-name1"></BackgroundPattern>
-        <BackgroundPattern rootClassName="background-pattern-root-class-name5"></BackgroundPattern>
+        <div className="iseno-home-container1"></div>
+        <div className="iseno-home-container2"></div>
         <BackgroundPattern rootClassName="background-pattern-root-class-name3"></BackgroundPattern>
         <BackgroundPattern rootClassName="background-pattern-root-class-name2"></BackgroundPattern>
         <BackgroundPattern rootClassName="background-pattern-root-class-name4"></BackgroundPattern>
@@ -27,7 +28,7 @@ const IsenoHome = (props) => {
         <div className="iseno-home-menu-wrapper">
           <img
             alt="image"
-            src="https://iseno.net/images/iseno-logo.svg"
+            src="/iseno-logo.svg"
             className="iseno-home-iseno-logo"
           />
           <a
@@ -63,7 +64,7 @@ const IsenoHome = (props) => {
             <div className="menu-wrapper__contactbox__img-wrapper">
               <img
                 alt="arrow image"
-                src="https://iseno.net/images/button-contact-arrow.svg"
+                src="/external/button-contact-arrow.svg"
                 loading="lazy"
                 className="iseno-home-menu-wrapper-contactbox-img-wrapper-arrow-img menu-wrapper__contactbox__img-wrapper"
               />
@@ -102,7 +103,7 @@ const IsenoHome = (props) => {
           <div className="iseno-home-read-more-button-wrapperbox">
             <img
               alt="arrow-down"
-              src="https://iseno.net/images/button-show-more-arrow.svg"
+              src="/external/button-show-more-arrow.svg"
               loading="lazy"
               className="iseno-home-read-more-button-wrappericon"
             />
@@ -116,32 +117,47 @@ const IsenoHome = (props) => {
         </h2>
         <SectionSubheading></SectionSubheading>
         <div className="iseno-home-animated-block-light"></div>
-        <p className="iseno-home-text08 Content">
-          <span className="iseno-home-text09">
+        <p className="iseno-home-mission-paragraph Content">
+          <span className="iseno-home-text08">
             Our mission is to deliver the best quality technologically and
             visually advanced products from start to finish. For this reason, we
             combined all of our brands into one group so we can work on complex
             and integrated projects and exceed our client’s expectations.
           </span>
+          <br className="iseno-home-text09"></br>
           <br className="iseno-home-text10"></br>
           <br className="iseno-home-text11"></br>
-          <br className="iseno-home-text12"></br>
-          <span className="iseno-home-text13">
+          <span className="iseno-home-text12">
             Our values are based on in-depth research, user-centricity, and
             clear communication. We believe in inclusivity, accessibility, and
             diversity when building our products and teams.
           </span>
+          <br className="iseno-home-text13"></br>
           <br className="iseno-home-text14"></br>
-          <br className="iseno-home-text15"></br>
-          <span className="iseno-home-text16">
+          <span className="iseno-home-text15">
             In addition to working hard for our clients, we are building a UX
             community where anyone can participate in an open discussion about
             UX and we are developing a UX jo
           </span>
-          <span className="iseno-home-text17">b search website.</span>
+          <span className="iseno-home-text16">b search website.</span>
         </p>
       </section>
-      <section className="iseno-home-mission-section1"></section>
+      <section className="iseno-home-brands-section">
+        <h2 className="iseno-home-text17 Heading2">Brands</h2>
+        <p className="iseno-home-text18 Subheading">
+          <span>Alone we can do so little, </span>
+          <br></br>
+          <span>together we can do so much</span>
+          <br></br>
+        </p>
+        <div className="iseno-home-animated-block-dark"></div>
+        <div className="iseno-home-container3">
+          <BrandsTile rootClassName="brands-tile-root-class-name1"></BrandsTile>
+          <BrandsTile rootClassName="brands-tile-root-class-name2"></BrandsTile>
+          <BrandsTile rootClassName="brands-tile-root-class-name3"></BrandsTile>
+          <BrandsTile rootClassName="brands-tile-root-class-name"></BrandsTile>
+        </div>
+      </section>
     </div>
   )
 }

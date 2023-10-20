@@ -1,0 +1,71 @@
+.brands-tile-container {
+  width: 65vw;
+  height: 40%;
+  display: flex;
+  z-index: 1000;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.brands-tile-image {
+  top: 0px;
+  left: 1px;
+  width: 16vw;
+  height: 16vw;
+  position: absolute;
+  object-fit: cover;
+}
+.brands-tile-container1 {
+  top: 1px;
+  right: 1px;
+  width: 70%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-self: flex-end;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.brands-tile-text {
+  font-size: 36px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: -8px;
+  font-weight: 700;
+  line-height: 46px;
+  margin-bottom: 10px;
+}
+.brands-tile-text1 {
+  margin-bottom: 10px;
+}
+.brands-tile-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 9 vh;
+  justify-content: flex-start;
+}
+.brands-tile-text2 {
+  align-self: flex-start;
+}
+.brands-tile-root-class-name1 {
+  height: 100%;
+}
+.brands-tile-root-class-name2 {
+  height: 100%;
+  margin-top: var(--dl-space-space-padding-15pro);
+}
+.brands-tile-root-class-name3 {
+  height: 100%;
+  margin-top: var(--dl-space-space-padding-15pro);
+}
+.brands-tile-root-class-name {
+  height: 100%;
+  margin-top: var(--dl-space-space-padding-15pro);
+  margin-bottom: 9 vh;
+}
