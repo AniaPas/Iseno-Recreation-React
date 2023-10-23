@@ -53,6 +53,21 @@
 .brands-tile-text2 {
   align-self: flex-start;
 }
+.brands-tile-image1 {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  transition: margin-left 0.3s ease;
+  margin-left: 8px;
+}
+.brands-tile-image1:hover {
+  margin-left: var(--dl-space-space-unit);
+}
+.brands-tile-root-class-name {
+  height: 100%;
+  margin-top: var(--dl-space-space-padding-15pro);
+  margin-bottom: 9 vh;
+}
 .brands-tile-root-class-name1 {
   height: 100%;
 }
@@ -63,9 +78,4 @@
 .brands-tile-root-class-name3 {
   height: 100%;
   margin-top: var(--dl-space-space-padding-15pro);
-}
-.brands-tile-root-class-name {
-  height: 100%;
-  margin-top: var(--dl-space-space-padding-15pro);
-  margin-bottom: 9 vh;
 }

@@ -152,10 +152,32 @@ const IsenoHome = (props) => {
         </p>
         <div className="iseno-home-animated-block-dark"></div>
         <div className="iseno-home-container3">
-          <BrandsTile rootClassName="brands-tile-root-class-name1"></BrandsTile>
-          <BrandsTile rootClassName="brands-tile-root-class-name2"></BrandsTile>
-          <BrandsTile rootClassName="brands-tile-root-class-name3"></BrandsTile>
-          <BrandsTile rootClassName="brands-tile-root-class-name"></BrandsTile>
+          <BrandsTile
+            image_alt="e-ux.pro-hover logo"
+            image_src="/e-ux.pro-hover.svg"
+            rootClassName="brands-tile-root-class-name1"
+          ></BrandsTile>
+          <BrandsTile
+            image_alt="e-pi.tech-hover logo"
+            image_src="/e-pi.tech-hover.svg"
+            rootClassName="brands-tile-root-class-name2"
+            image_src1="/arrow-link.svg"
+            text="e-pi.tech"
+            text1="e-pi.tech is a front and back end web and mobile development company. They produce finished potentially ready-to-release products using Symfony, Flutter, and React.js/angular technology. They work with advanced CRM, ERP and SaaS applications, and they have a vast experience working in fintech industry."
+          ></BrandsTile>
+          <BrandsTile
+            image_src="/wearly-hover.svg"
+            rootClassName="brands-tile-root-class-name3"
+            text="Wearlyme"
+            text1="Wearlyme is a place where you can both buy and sell used clothes and accessories. It was started on the initiative to encourage people to choose the form of shopping, which is convenient, easy, and eco-friendly."
+          ></BrandsTile>
+          <BrandsTile
+            rootClassName="brands-tile-root-class-name"
+            image_src="/xpower-hover.svg"
+            image_src4="/xpower-hover.svg"
+            text="xPower"
+            text1="xPower is a UX mentoring space with a goal to help people improve their skills and have a jump start in the UX industry. We welcome researchers, writers, designers, and project managers. We mainly communicate in English, but there are also Polish and Spanish communication channels on Discord."
+          ></BrandsTile>
         </div>
       </section>
     </div>
