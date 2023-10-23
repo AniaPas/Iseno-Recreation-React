@@ -20,7 +20,13 @@
   width: auto;
   height: auto;
   font-size: 18px;
+  transition: 0.3s;
   font-family: "DM Sans";
+}
+.nav-element-nav-element-text:hover {
+  width: auto;
+  text-transform: lowercase;
+  text-decoration: underline;
 }
 .nav-element-root-class-name {
   height: auto;

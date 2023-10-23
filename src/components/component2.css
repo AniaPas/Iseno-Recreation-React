@@ -1,0 +1,16 @@
+.component2-container {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: #e3e0e0;
+  border-width: 3px;
+  flex-direction: column;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+}
+.component2-root-class-name {
+  width: 23%;
+}
