@@ -1,0 +1,14 @@
+.team-background-grid-wrappertile1-team-background-grid-wrappertile {
+  width: 23%;
+  height: var(--dl-size-size-maxwidth);
+  display: flex;
+  z-index: 200;
+  position: relative;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-white);
+  border-width: 3px;
+  flex-direction: column;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+}

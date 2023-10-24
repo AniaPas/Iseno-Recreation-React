@@ -2,13 +2,12 @@ import React from 'react'
 
 import { Helmet } from 'react-helmet'
 
-import BackgroundPattern from '../components/background-pattern'
-import Component1 from '../components/component1'
-import Component2 from '../components/component2'
+import BackgroundGridWrapper from '../components/background-grid-wrapper'
 import NavElement from '../components/nav-element'
 import AnimatedBlockDark from '../components/animated-block-dark'
 import SectionSubheading from '../components/section-subheading'
 import BrandsWrappertile from '../components/brands-wrappertile'
+import BackgroundGridWrapper3 from '../components/background-grid-wrapper3'
 import './iseno-home.css'
 
 const IsenoHome = (props) => {
@@ -18,14 +17,7 @@ const IsenoHome = (props) => {
         <title>Iseno Recreation</title>
         <meta property="og:title" content="Iseno Recreation" />
       </Helmet>
-      <div className="iseno-home-background-grid-wrapper">
-        <BackgroundPattern rootClassName="background-pattern-root-class-name1"></BackgroundPattern>
-        <Component1 rootClassName="component1-root-class-name"></Component1>
-        <Component2 rootClassName="component2-root-class-name"></Component2>
-        <BackgroundPattern rootClassName="background-pattern-root-class-name3"></BackgroundPattern>
-        <BackgroundPattern rootClassName="background-pattern-root-class-name2"></BackgroundPattern>
-        <BackgroundPattern rootClassName="background-pattern-root-class-name4"></BackgroundPattern>
-      </div>
+      <BackgroundGridWrapper rootClassName="background-grid-wrapper-root-class-name"></BackgroundGridWrapper>
       <div className="iseno-home-header">
         <div className="iseno-home-menu-wrapper">
           <img
@@ -182,8 +174,37 @@ const IsenoHome = (props) => {
           ></BrandsWrappertile>
         </div>
       </section>
-      <section className="iseno-home-team-section">
-        <div className="iseno-home-team-background-grid-wrapper"></div>
+      <section className="iseno-home-tems-section">
+        <span>Text</span>
+        <div className="iseno-home-brands-wrapper1">
+          <BackgroundGridWrapper3 rootClassName="background-grid-wrapper3-root-class-name"></BackgroundGridWrapper3>
+          <BrandsWrappertile
+            image_alt="e-ux.pro-hover logo"
+            image_src="/e-ux.pro-hover.svg"
+            rootClassName="brands-wrappertile-root-class-name4"
+          ></BrandsWrappertile>
+          <BrandsWrappertile
+            text="e-pi.tech"
+            text1="e-pi.tech is a front and back end web and mobile development company. They produce finished potentially ready-to-release products using Symfony, Flutter, and React.js/angular technology. They work with advanced CRM, ERP and SaaS applications, and they have a vast experience working in fintech industry."
+            image_alt="e-pi.tech-hover logo"
+            image_src="/e-pi.tech-hover.svg"
+            image_src1="/arrow-link.svg"
+            rootClassName="brands-wrappertile-root-class-name5"
+          ></BrandsWrappertile>
+          <BrandsWrappertile
+            text="Wearlyme"
+            text1="Wearlyme is a place where you can both buy and sell used clothes and accessories. It was started on the initiative to encourage people to choose the form of shopping, which is convenient, easy, and eco-friendly."
+            image_src="/wearly-hover.svg"
+            rootClassName="brands-wrappertile-root-class-name6"
+          ></BrandsWrappertile>
+          <BrandsWrappertile
+            text="xPower"
+            text1="xPower is a UX mentoring space with a goal to help people improve their skills and have a jump start in the UX industry. We welcome researchers, writers, designers, and project managers. We mainly communicate in English, but there are also Polish and Spanish communication channels on Discord."
+            image_src="/xpower-hover.svg"
+            image_src4="/xpower-hover.svg"
+            rootClassName="brands-wrappertile-root-class-name7"
+          ></BrandsWrappertile>
+        </div>
       </section>
     </div>
   )

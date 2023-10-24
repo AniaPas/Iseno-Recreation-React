@@ -8,18 +8,6 @@
   flex-direction: column;
   justify-content: center;
 }
-.iseno-home-background-grid-wrapper {
-  width: 100%;
-  height: 5395px;
-  display: flex;
-  z-index: 100;
-  grid-gap: 3px;
-  position: absolute;
-  padding-bottom: 189px;
-  justify-content: center;
-  background-color: var(--dl-color-gray-white);
-  grid-template-columns: 1fr 3fr 3fr;
-}
 .iseno-home-header {
   top: 0px;
   left: 0px;
@@ -307,24 +295,29 @@
   padding-left: 16vw;
   flex-direction: column;
 }
-.iseno-home-team-section {
+.iseno-home-tems-section {
   width: 100%;
-  height: 1763px;
+  height: auto;
   display: flex;
-  z-index: 1000;
-  align-items: flex-end;
+  position: relative;
+  align-items: flex-start;
   font-weight: 700;
-  flex-direction: row;
-  justify-content: center;
-  background-color: #d03030;
+  padding-top: 9vh;
+  padding-left: var(--dl-space-space-padding-9pro);
+  padding-right: var(--dl-space-space-padding-9pro);
+  flex-direction: column;
+  padding-bottom: 9vh;
+  justify-content: flex-start;
+  background-color: var(--dl-color-primary-backround1);
 }
-.iseno-home-team-background-grid-wrapper {
-  width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
+.iseno-home-brands-wrapper1 {
+  width: 961px;
+  height: 1292px;
   display: flex;
-  align-self: stretch;
-  align-items: flex-end;
-  justify-content: center;
+  margin-top: 9 vh;
+  margin-right: 0px;
+  padding-left: 16vw;
+  flex-direction: column;
 }
 @media(max-width: 991px) {
   .iseno-home-header {

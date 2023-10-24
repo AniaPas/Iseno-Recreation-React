@@ -1,5 +1,5 @@
-.component2-container {
-  width: 20%;
+.component3-container {
+  width: 7vw;
   height: 100%;
   display: flex;
   position: relative;
@@ -10,16 +10,4 @@
   border-top-width: 0px;
   border-left-width: 0px;
   border-bottom-width: 0px;
-}
-.component2-root-class-name {
-  width: 23%;
-}
-.component2-root-class-name1 {
-  width: 23%;
-}
-.component2-root-class-name2 {
-  width: 23%;
-}
-.component2-root-class-name3 {
-  width: 23%;
 }

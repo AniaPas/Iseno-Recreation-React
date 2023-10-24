@@ -1,0 +1,19 @@
+.component11-container {
+  width: 20vw;
+  border: 2px solid rgba(120, 120, 120, 0.4);
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: #e3e0e0;
+  border-width: 3px;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+}
+.component11-root-class-name {
+  width: 20vw;
+  background-color: #FFFFFF;
+}

@@ -1,5 +1,5 @@
 .background-pattern-container {
-  width: 20%;
+  width: 20vw;
   height: 100%;
   display: flex;
   position: relative;
@@ -10,6 +10,16 @@
   border-top-width: 0px;
   border-left-width: 0px;
   border-bottom-width: 0px;
+}
+.background-pattern-root-class-name {
+  width: 7vw;
+  height: 100%;
+  background-color: var(--dl-color-gray-white);
+}
+.background-pattern-root-class-name1 {
+  width: 7vw;
+  height: 100%;
+  background-color: var(--dl-color-gray-white);
 }
 .background-pattern-root-class-name2 {
   width: 23%;
@@ -24,8 +34,52 @@
   height: 100%;
   background-color: var(--dl-color-gray-white);
 }
-.background-pattern-root-class-name1 {
+.background-pattern-root-class-name5 {
+  width: 23%;
+  background-color: var(--dl-color-gray-white);
+}
+.background-pattern-root-class-name6 {
+  width: 23%;
+  background-color: var(--dl-color-gray-white);
+}
+.background-pattern-root-class-name7 {
   width: 7%;
   height: 100%;
   background-color: var(--dl-color-gray-white);
+}
+.background-pattern-root-class-name8 {
+  width: 7vw;
+  height: 100%;
+  background-color: var(--dl-color-gray-white);
+}
+.background-pattern-root-class-name9 {
+  width: 23%;
+  background-color: var(--dl-color-gray-white);
+}
+.background-pattern-root-class-name10 {
+  width: 23%;
+  background-color: var(--dl-color-gray-white);
+}
+.background-pattern-root-class-name11 {
+  width: 7%;
+  height: 100%;
+  background-color: var(--dl-color-gray-white);
+}
+.background-pattern-root-class-name12 {
+  width: 7vw;
+  height: 100%;
+  background-color: var(--dl-color-primary-backround1);
+}
+.background-pattern-root-class-name13 {
+  width: 23%;
+  background-color: var(--dl-color-gray-background-gray);
+}
+.background-pattern-root-class-name14 {
+  width: 23%;
+  background-color: var(--dl-color-gray-background-gray);
+}
+.background-pattern-root-class-name15 {
+  width: 7%;
+  height: 100%;
+  background-color: var(--dl-color-primary-backround1);
 }

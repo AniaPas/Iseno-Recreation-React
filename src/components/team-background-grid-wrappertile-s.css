@@ -1,0 +1,16 @@
+.team-background-grid-wrappertile-s-team-background-grid-wrappertile-s {
+  width: 20vw;
+  height: var(--dl-size-size-maxwidth);
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-white);
+  border-width: 3px;
+  flex-direction: column;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+}
+.team-background-grid-wrappertile-s-root-class-name {
+  width: 20vw;
+}
