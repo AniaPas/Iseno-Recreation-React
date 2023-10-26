@@ -9,12 +9,18 @@
   border-color: var(--dl-color-gray-white);
   border-style: solid;
   border-width: 2px;
+  flex-direction: row;
   background-color: var(--dl-color-gray-background-gray);
   border-top-width: 2px;
+  border-left-width: 0px;
+  border-right-width: 0px;
   border-bottom-width: 2px;
 }
 .background-gray-grid-wrapperelement-box-root-class-name {
-  right: 11px;
-  bottom: 203px;
+  right: 0px;
+  width: 73.5vw;
+  bottom: 135vh;
+  height: 40%;
+  margin: auto;
   position: absolute;
 }

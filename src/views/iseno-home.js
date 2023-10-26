@@ -185,6 +185,24 @@ const IsenoHome = (props) => {
           <br></br>
         </p>
         <AnimatedBlockDarkLong rootClassName="animated-block-dark-long-root-class-name"></AnimatedBlockDarkLong>
+        <p className="iseno-home-text29">
+          Our company operates 100% remotely, meaning we have access to the best
+          international talent for your project and that we are always available
+          for our clients no matter where they are located. Our clients find
+          working with us online to be economical and time-efficient. There is
+          no limit to what we can do together
+        </p>
+        <div className="iseno-home-container1">
+          <span>Text</span>
+          <p className="iseno-home-hero-sectionpara-main1 Content">
+            Iseno is an international group of companies that can build your
+            digital product from scratch to a ready-to-launch solution, execute
+            UX/UI design or audit, and market your new or improved product to
+            the right audience. We operate in fintech, e-commerce, medical and
+            automotive industries. Apart from working hard on projects for our
+            clients, we are engaged in creating a UX/UI community.
+          </p>
+        </div>
       </section>
     </div>
   )

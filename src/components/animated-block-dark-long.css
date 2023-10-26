@@ -9,4 +9,7 @@
   align-items: flex-start;
   background-color: var(--dl-color-primary-background2);
 }
-
+.animated-block-dark-long-root-class-name {
+  width: 32vw;
+  margin-top: 12px;
+}

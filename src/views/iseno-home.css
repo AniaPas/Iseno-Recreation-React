@@ -117,7 +117,7 @@
 .iseno-home-hero-sectionheading {
   width: 896px;
   text-align: left;
-  margin-bottom: 32px;
+  margin-bottom: 64px;
   background-repeat: repeat-y;
 }
 .iseno-home-hero-sectionpara-main {
@@ -204,7 +204,7 @@
 }
 .iseno-home-mission-paragraph {
   max-width: 700px;
-  padding-top: var(--dl-space-space-padding-32px);
+  padding-top: 64px;
 }
 .iseno-home-text08 {
   color: var(--dl-color-gray-white);
@@ -299,24 +299,24 @@
   background-color: var(--dl-color-primary-background2);
 }
 .iseno-home-brands-wrapper {
-  width: 961px;
-  height: 1292px;
+  width: auto;
+  height: 100vw;
   display: flex;
-  margin-top: 9 vh;
+  margin-top: 9vh;
   margin-right: 0px;
   padding-left: 16vw;
   flex-direction: column;
 }
 .iseno-home-team-section {
   width: 100%;
-  height: 714px;
+  height: 1910px;
   display: flex;
   position: relative;
   align-items: flex-start;
   font-weight: 700;
   padding-top: 9vh;
-  padding-left: var(--dl-space-space-padding-9pro);
-  padding-right: var(--dl-space-space-padding-9pro);
+  padding-left: var(--dl-space-space-padding-15pro);
+  padding-right: var(--dl-space-space-padding-15pro);
   flex-direction: column;
   padding-bottom: 9vh;
   justify-content: flex-start;
@@ -331,6 +331,32 @@
 }
 .iseno-home-text24 {
   z-index: 3000;
+}
+.iseno-home-text29 {
+  width: 40vw;
+  height: auto;
+  z-index: 3000;
+  font-size: 22px;
+  align-self: flex-end;
+  font-family: "DM Sans";
+  font-weight: 400;
+  line-height: 150%;
+  padding-top: 64px;
+  padding-right: 1px;
+  text-transform: none;
+  text-decoration: none;
+}
+.iseno-home-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iseno-home-hero-sectionpara-main1 {
+  max-width: 700px;
+  margin-bottom: 10px;
 }
 @media(max-width: 991px) {
   .iseno-home-header {
