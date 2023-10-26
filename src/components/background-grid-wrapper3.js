@@ -2,9 +2,9 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import BackgroundPattern from './background-pattern'
-import Component1 from './component1'
-import Component2 from './component2'
+import BackgroundGrayGridWrapperelement from './background-gray-grid-wrapperelement'
+import BackgroundGrayGridWrapperelementBox from './background-gray-grid-wrapperelement-box'
+import BackgroundGrayGridWrapperelementLine from './background-gray-grid-wrapperelement-line'
 import './background-grid-wrapper3.css'
 
 const BackgroundGridWrapper3 = (props) => {
@@ -12,30 +12,38 @@ const BackgroundGridWrapper3 = (props) => {
     <div
       className={`background-grid-wrapper3-background-grid-wrapper ${props.rootClassName} `}
     >
-      <BackgroundPattern
-        rootClassName="background-pattern-root-class-name12"
+      <BackgroundGrayGridWrapperelement
+        rootClassName="background-gray-grid-wrapperelement-root-class-name"
         className=""
-      ></BackgroundPattern>
-      <Component1
-        rootClassName="component1-root-class-name3"
+      ></BackgroundGrayGridWrapperelement>
+      <BackgroundGrayGridWrapperelementBox
+        rootClassName="background-gray-grid-wrapperelement-box-root-class-name"
         className=""
-      ></Component1>
-      <Component2
-        rootClassName="component2-root-class-name3"
+      ></BackgroundGrayGridWrapperelementBox>
+      <BackgroundGrayGridWrapperelementLine
+        rootClassName="background-gray-grid-wrapperelement-line-root-class-name"
         className=""
-      ></Component2>
-      <BackgroundPattern
-        rootClassName="background-pattern-root-class-name13"
+      ></BackgroundGrayGridWrapperelementLine>
+      <BackgroundGrayGridWrapperelement
+        rootClassName="background-gray-grid-wrapperelement-root-class-name1"
         className=""
-      ></BackgroundPattern>
-      <BackgroundPattern
-        rootClassName="background-pattern-root-class-name14"
+      ></BackgroundGrayGridWrapperelement>
+      <BackgroundGrayGridWrapperelement
+        rootClassName="background-gray-grid-wrapperelement-root-class-name2"
         className=""
-      ></BackgroundPattern>
-      <BackgroundPattern
-        rootClassName="background-pattern-root-class-name15"
+      ></BackgroundGrayGridWrapperelement>
+      <BackgroundGrayGridWrapperelement
+        rootClassName="background-gray-grid-wrapperelement-root-class-name3"
         className=""
-      ></BackgroundPattern>
+      ></BackgroundGrayGridWrapperelement>
+      <BackgroundGrayGridWrapperelement
+        rootClassName="background-gray-grid-wrapperelement-root-class-name4"
+        className=""
+      ></BackgroundGrayGridWrapperelement>
+      <BackgroundGrayGridWrapperelement
+        rootClassName="background-gray-grid-wrapperelement-root-class-name5"
+        className=""
+      ></BackgroundGrayGridWrapperelement>
     </div>
   )
 }

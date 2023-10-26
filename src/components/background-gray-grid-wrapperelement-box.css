@@ -1,0 +1,20 @@
+.background-gray-grid-wrapperelement-box-background-gray-grid-wrapperelement-box {
+  flex: 0 0 auto;
+  width: 73vw;
+  height: 50%;
+  display: flex;
+  z-index: 300;
+  position: relative;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-white);
+  border-style: solid;
+  border-width: 2px;
+  background-color: var(--dl-color-gray-background-gray);
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+}
+.background-gray-grid-wrapperelement-box-root-class-name {
+  right: 11px;
+  bottom: 203px;
+  position: absolute;
+}

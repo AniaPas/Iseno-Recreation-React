@@ -1,0 +1,13 @@
+.background-gray-grid-wrapperelement1-container {
+  width: 7%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: #ff1717;
+  border-width: 1px;
+  flex-direction: column;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+}

@@ -1,0 +1,28 @@
+.background-grid-wrapperelement1-container {
+  width: 20vw;
+  border: 2px solid rgba(120, 120, 120, 0.4);
+  height: 100%;
+  display: flex;
+  z-index: 150;
+  position: relative;
+  align-items: center;
+  border-color: #e3e0e0;
+  border-width: 1px;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+}
+.background-grid-wrapperelement1-root-class-name {
+  width: 20vw;
+  background-color: var(--dl-color-gray-white);
+}
+.background-grid-wrapperelement1-root-class-name1 {
+  width: 20vw;
+  background-color: var(--dl-color-gray-white);
+}
+.background-grid-wrapperelement1-root-class-name2 {
+  width: 20vw;
+  background-color: var(--dl-color-gray-white);
+}

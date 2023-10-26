@@ -1,0 +1,22 @@
+.background-grid-wrapperelement-container {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: #e3e0e0;
+  border-width: 1px;
+  flex-direction: column;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+}
+.background-grid-wrapperelement-root-class-name {
+  width: 23%;
+}
+.background-grid-wrapperelement-root-class-name1 {
+  width: 23%;
+}
+.background-grid-wrapperelement-root-class-name2 {
+  width: 23%;
+}

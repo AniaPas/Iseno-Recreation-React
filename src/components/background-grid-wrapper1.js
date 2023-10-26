@@ -2,20 +2,20 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import BackgroundPattern from './background-pattern'
-import Component1 from './component1'
-import Component2 from './component2'
+import BackgroundGridWrapperelement2 from './background-grid-wrapperelement2'
+import BackgroundGridWrapperelement1 from './background-grid-wrapperelement1'
+import BackgroundGridWrapperelement from './background-grid-wrapperelement'
 import './background-grid-wrapper1.css'
 
 const BackgroundGridWrapper1 = (props) => {
   return (
     <div className="background-grid-wrapper1-background-grid-wrapper">
-      <BackgroundPattern rootClassName="background-pattern-root-class-name"></BackgroundPattern>
-      <Component1 rootClassName="component1-root-class-name1"></Component1>
-      <Component2 rootClassName="component2-root-class-name1"></Component2>
-      <BackgroundPattern rootClassName="background-pattern-root-class-name5"></BackgroundPattern>
-      <BackgroundPattern rootClassName="background-pattern-root-class-name6"></BackgroundPattern>
-      <BackgroundPattern rootClassName="background-pattern-root-class-name7"></BackgroundPattern>
+      <BackgroundGridWrapperelement2 rootClassName="background-grid-wrapperelement2-root-class-name"></BackgroundGridWrapperelement2>
+      <BackgroundGridWrapperelement1 rootClassName="background-grid-wrapperelement1-root-class-name1"></BackgroundGridWrapperelement1>
+      <BackgroundGridWrapperelement rootClassName="background-grid-wrapperelement-root-class-name1"></BackgroundGridWrapperelement>
+      <BackgroundGridWrapperelement2 rootClassName="background-grid-wrapperelement2-root-class-name5"></BackgroundGridWrapperelement2>
+      <BackgroundGridWrapperelement2 rootClassName="background-grid-wrapperelement2-root-class-name6"></BackgroundGridWrapperelement2>
+      <BackgroundGridWrapperelement2 rootClassName="background-grid-wrapperelement2-root-class-name7"></BackgroundGridWrapperelement2>
     </div>
   )
 }

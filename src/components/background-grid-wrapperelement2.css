@@ -1,0 +1,67 @@
+.background-grid-wrapperelement2-container {
+  width: 20vw;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: #e3e0e0;
+  border-width: 1px;
+  flex-direction: column;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+}
+.background-grid-wrapperelement2-root-class-name {
+  width: 7vw;
+  height: 100%;
+  background-color: var(--dl-color-gray-white);
+}
+.background-grid-wrapperelement2-root-class-name1 {
+  width: 7vw;
+  height: 100%;
+  background-color: var(--dl-color-gray-white);
+}
+.background-grid-wrapperelement2-root-class-name2 {
+  width: 23%;
+  background-color: var(--dl-color-gray-white);
+}
+.background-grid-wrapperelement2-root-class-name3 {
+  width: 23%;
+  background-color: var(--dl-color-gray-white);
+}
+.background-grid-wrapperelement2-root-class-name4 {
+  width: 7%;
+  height: 100%;
+  background-color: var(--dl-color-gray-white);
+}
+.background-grid-wrapperelement2-root-class-name5 {
+  width: 23%;
+  background-color: var(--dl-color-gray-white);
+}
+.background-grid-wrapperelement2-root-class-name6 {
+  width: 23%;
+  background-color: var(--dl-color-gray-white);
+}
+.background-grid-wrapperelement2-root-class-name7 {
+  width: 7%;
+  height: 100%;
+  background-color: var(--dl-color-gray-white);
+}
+.background-grid-wrapperelement2-root-class-name8 {
+  width: 7vw;
+  height: 100%;
+  background-color: var(--dl-color-gray-white);
+}
+.background-grid-wrapperelement2-root-class-name9 {
+  width: 23%;
+  background-color: var(--dl-color-gray-white);
+}
+.background-grid-wrapperelement2-root-class-name10 {
+  width: 23%;
+  background-color: var(--dl-color-gray-white);
+}
+.background-grid-wrapperelement2-root-class-name11 {
+  width: 7%;
+  height: 100%;
+  background-color: var(--dl-color-gray-white);
+}

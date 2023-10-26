@@ -1,0 +1,82 @@
+.background-gray-grid-wrapperelement-container {
+  width: 20vw;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-white);
+  border-width: 2px;
+  flex-direction: column;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+}
+.background-gray-grid-wrapperelement-root-class-name {
+  width: 7%;
+  background-color: var(--dl-color-primary-backround1);
+}
+.background-gray-grid-wrapperelement-root-class-name1 {
+  width: 20%;
+  background-color: var(--dl-color-gray-background-gray);
+}
+.background-gray-grid-wrapperelement-root-class-name2 {
+  width: 23%;
+  background-color: var(--dl-color-gray-background-gray);
+}
+.background-gray-grid-wrapperelement-root-class-name3 {
+  width: 23%;
+  background-color: var(--dl-color-gray-background-gray);
+}
+.background-gray-grid-wrapperelement-root-class-name4 {
+  width: 23%;
+  background-color: var(--dl-color-gray-background-gray);
+}
+.background-gray-grid-wrapperelement-root-class-name5 {
+  width: 7%;
+  background-color: var(--dl-color-primary-backround1);
+}
+.background-gray-grid-wrapperelement-root-class-name6 {
+  width: 7%;
+  background-color: var(--dl-color-primary-backround1);
+}
+.background-gray-grid-wrapperelement-root-class-name7 {
+  width: 20%;
+  background-color: var(--dl-color-gray-background-gray);
+}
+.background-gray-grid-wrapperelement-root-class-name8 {
+  width: 23%;
+  background-color: var(--dl-color-gray-background-gray);
+}
+.background-gray-grid-wrapperelement-root-class-name9 {
+  width: 23%;
+  background-color: var(--dl-color-gray-background-gray);
+}
+.background-gray-grid-wrapperelement-root-class-name10 {
+  width: 23%;
+  background-color: var(--dl-color-gray-background-gray);
+}
+.background-gray-grid-wrapperelement-root-class-name11 {
+  width: 7%;
+  background-color: var(--dl-color-primary-backround1);
+}
+.background-gray-grid-wrapperelement-root-class-name12 {
+  width: 7vw;
+  background-color: var(--dl-color-primary-backround1);
+}
+.background-gray-grid-wrapperelement-root-class-name13 {
+  width: 20vw;
+  align-self: flex-start;
+  background-color: var(--dl-color-gray-background-gray);
+}
+.background-gray-grid-wrapperelement-root-class-name14 {
+  width: 7vw;
+  background-color: var(--dl-color-primary-backround1);
+}
+.background-gray-grid-wrapperelement-root-class-name15 {
+  width: 20vw;
+  background-color: var(--dl-color-gray-background-gray);
+}
+.background-gray-grid-wrapperelement-root-class-name16 {
+  width: 73vw;
+  background-color: var(--dl-color-gray-background-gray);
+}

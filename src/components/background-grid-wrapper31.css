@@ -1,0 +1,28 @@
+.background-grid-wrapper31-background-grid-wrapper {
+  width: 100vw;
+  height: 325vh;
+  display: flex;
+  z-index: 100;
+  grid-gap: 3px;
+  position: relative;
+  padding-bottom: 189px;
+  justify-content: flex-start;
+  background-color: var(--dl-color-gray-background-gray);
+  grid-template-rows: 1fr 3fr 3fr;
+}
+.background-grid-wrapper31-container {
+  top: 120vh;
+  flex: 0 0 auto;
+  right: 6px;
+  width: 73%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  bottom: 25vh;
+  height: 180vh;
+  margin: auto;
+  display: flex;
+  z-index: 200;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #D9D9D9;
+}

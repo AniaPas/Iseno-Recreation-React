@@ -1,0 +1,14 @@
+.background-grid-wrapper322-background-grid-wrapper {
+  width: 100vw;
+  height: 120vh;
+  display: flex;
+  z-index: 100;
+  grid-gap: 3px;
+  position: relative;
+  align-items: stretch;
+  border-color: #b13617;
+  border-width: 5px;
+  justify-content: flex-start;
+  background-color: var(--dl-color-gray-background-gray);
+  grid-template-columns: 1fr 3fr 3fr;
+}
