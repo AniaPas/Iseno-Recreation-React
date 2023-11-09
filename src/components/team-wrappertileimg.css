@@ -1,0 +1,8 @@
+.team-wrappertileimg-container {
+  display: flex;
+  position: relative;
+}
+.team-wrappertileimg-team-wrappertileimg {
+  width: 200px;
+  object-fit: cover;
+}

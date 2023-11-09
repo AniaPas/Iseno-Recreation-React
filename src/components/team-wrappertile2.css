@@ -1,0 +1,26 @@
+.team-wrappertile2-team-wrappertile {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  z-index: 4000;
+  position: relative;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.team-wrappertile2-team-wrappertileimg {
+  width: 200px;
+  object-fit: cover;
+}
+.team-wrappertile2-text {
+  width: auto;
+  height: 35px;
+  text-align: center;
+}
+.team-wrappertile2-text1 {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}

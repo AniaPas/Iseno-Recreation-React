@@ -1,19 +1,16 @@
 import React from 'react'
 
-import PropTypes from 'prop-types'
-
+import Component4 from './component4'
 import './component1.css'
 
 const Component1 = (props) => {
-  return <div className={`component1-container ${props.rootClassName} `}></div>
-}
-
-Component1.defaultProps = {
-  rootClassName: '',
-}
-
-Component1.propTypes = {
-  rootClassName: PropTypes.string,
+  return (
+    <div className="component1-container">
+      <div className="component1-container1">
+        <Component4></Component4>
+      </div>
+    </div>
+  )
 }
 
 export default Component1

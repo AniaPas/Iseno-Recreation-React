@@ -1,11 +1,11 @@
 import React from 'react'
 
-import './component2.css'
+import './component4.css'
 
-const Component2 = (props) => {
+const Component4 = (props) => {
   return (
-    <div className="component2-container">
-      <p className="component2-text">
+    <div className="component4-container">
+      <p className="component4-text">
         <span>
           Adrianna
           <span
@@ -21,4 +21,4 @@ const Component2 = (props) => {
   )
 }
 
-export default Component2
+export default Component4

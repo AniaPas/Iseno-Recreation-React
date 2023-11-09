@@ -17,10 +17,18 @@
   border-bottom-width: 2px;
 }
 .background-gray-grid-wrapperelement-box-root-class-name {
+  top: 25%;
   right: 0px;
-  width: 73.5vw;
-  bottom: 135vh;
-  height: 40%;
+  width: 73.9%;
+  height: 37%;
+  margin: auto;
+  position: absolute;
+}
+.background-gray-grid-wrapperelement-box-root-class-name1 {
+  top: 25%;
+  right: 0px;
+  width: 73.9%;
+  height: 37%;
   margin: auto;
   position: absolute;
 }
